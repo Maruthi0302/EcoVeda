@@ -1,70 +1,97 @@
-# Welcome to your Lovable project
+# EcoVeda - Integrated Sustainability Living Platform 🌱
 
-## Project info
+EcoVeda is a comprehensive sustainability platform that empowers individuals and communities to make a positive impact on the environment through education, community engagement, and practical tools for sustainable living.
 
-**URL**: https://lovable.dev/projects/c5df4c76-52fd-4eeb-acf6-52f16782b470
+## 🌟 Features
 
-## How can I edit this code?
+### Core Features
+- **Sustainable Living Hub**: Access practical tips and strategies for reducing environmental footprint
+- **Community Support**: Connect with like-minded individuals and share sustainability journeys
+- **Goal Tracking**: Set and monitor sustainability goals with interactive tools
+- **Health & Wellness**: Discover the connection between sustainable living and personal well-being
+- **Innovation Hub**: Stay updated with latest sustainable technologies and practices
+- **Global Impact**: Join a worldwide movement for environmental conservation
+- **Rewards Program**: Earn points and rewards for sustainable actions and achievements
 
-There are several ways of editing your application.
+### Key Sections
+- **Dashboard**: Personalized overview of your sustainability journey
+- **Skills Hub**: Learn new sustainable living skills
+- **Jobs**: Find opportunities in the sustainability sector
+- **Food Waste Management**: Tools and resources for reducing food waste
+- **Health**: Resources for sustainable health practices
+- **Education**: Educational content about sustainability
+- **Gender Equality**: Resources and support for gender equality in sustainability
+- **Community**: Connect with other sustainability enthusiasts
+- **Rewards**: Track and redeem your sustainability achievements
 
-**Use Lovable**
+## 🚀 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c5df4c76-52fd-4eeb-acf6-52f16782b470) and start prompting.
+- **Frontend Framework**: React with TypeScript
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **State Management**: React Query for server state
+- **Routing**: React Router DOM
+- **Authentication**: Supabase Auth
+- **Database**: Supabase
+- **Maps Integration**: Google Maps API and Mapbox GL
+- **UI Components**: Radix UI primitives
+- **Animations**: Framer Motion
+- **Form Handling**: React Hook Form with Zod validation
+- **Charts**: Recharts
+- **Development**: Vite
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- npm or yarn or bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ecoveda.git
+cd ecoveda
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Set up environment variables:
+Create a `.env` file in the root directory and add necessary environment variables:
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+VITE_MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
+```
 
-**Use GitHub Codespaces**
+4. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📝 Available Scripts
 
-## What technologies are used for this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-This project is built with .
+## 🤝 Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c5df4c76-52fd-4eeb-acf6-52f16782b470) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
-"# EcoVeda" 
+Made with 🍀 for a sustainable future
