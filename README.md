@@ -49,49 +49,5 @@ EcoVeda is a comprehensive sustainability platform that empowers individuals and
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ecoveda.git
-cd ecoveda
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-bun install
-```
-
-3. Set up environment variables:
-Create a `.env` file in the root directory and add necessary environment variables:
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-VITE_MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
-```
-
-4. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-bun dev
-```
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-Made with 🍀 for a sustainable future
+git clone https://github.com/Maruthi0302/EcoVeda.git
+cd EcoVeda
